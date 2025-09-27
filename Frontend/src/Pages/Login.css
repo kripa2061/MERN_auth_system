@@ -1,0 +1,131 @@
+/* login.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  height: 100%;
+}
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(185deg, #c3e7f7, #f4dcff); /* soft gradient */
+}
+
+.navbar-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.navbar-logo img {
+  width: 120px;
+  height: auto;
+}
+
+.login-form-box {
+  background-color: #212020; /* black background for contrast */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  max-width: 90%;
+}
+
+.login-content h1 {
+  color: #fff;
+  margin: 0 0 10px 0;
+  font-size: 24px;
+text-align: center;
+}
+
+.login-content p {
+   color: #fff;
+  margin: 0 0 10px 0;
+  font-size: 14px;
+   text-align:left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group .input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 15px;
+  opacity: 0.7;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(246, 246, 246, 0.1); /* transparent greyish */
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #9a9292;
+}
+
+/* Submit button */
+button {
+  width: 150px; /* smaller width */
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  align-self: center; /* centers button */
+}
+
+button:hover {
+  background-color: #92b7ee;
+}
+
+/* Normal paragraph text */
+.login-form-box p {
+  color: #ccc;
+  font-size: 13px;
+  text-align: center;
+    padding: 2px;
+    margin: 10px 10px 10px 10px;
+}
+.link{
+   color:  #1e90ff;
+     text-decoration: underline;
+     font-size: 13px;
+       margin-bottom: 15px;
+         text-align: center;
+          cursor: pointer;
+}
+/* Special blue link part inside paragraphs */
+.login-form-box p .link {
+  color: #1e90ff;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.3s;
+
+}
+
+.login-form-box p .link:hover {
+  color: #0d6efd;
+
+}

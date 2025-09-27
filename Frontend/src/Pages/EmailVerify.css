@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.email-verify-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(185deg, #c3e7f7, #f4dcff); 
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.otp-logo{
+      position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.otp-logo img{
+      width: 120px;
+  height: auto;
+}
+.OTP-form {
+  background-color: #212020; /* black background for contrast */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  max-width: 90%;
+}
+
+.OTP-form .text {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.OTP-form h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.OTP-form p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.get-otp {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.get-otp input {
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #898787;
+  color: white;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.get-otp input:focus {
+  background-color: #444;
+  transform: scale(1.05);
+}
+button{
+    align-items: center;
+}
+.otp-submit-button {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.otp-submit-button .submit {
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.6rem 2rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.otp-submit-button .submit:hover {
+  background-color: #1b63ab;
+  transform: scale(1.05);
+}
